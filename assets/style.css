@@ -1,0 +1,41 @@
+/* Minimal academic style inspired by AcademicPages / Minimal Mistakes */
+:root{--text:#3d4144;--muted:#7a8288;--link:#52adc8;--rule:#f2f3f3;--footer:#f2f3f3;--max:1100px}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--text);line-height:1.6;background:#fff}
+a{color:var(--link);text-decoration:underline}
+a:hover{color:#3a8ba3}
+.masthead{border-bottom:1px solid var(--rule);background:#fff;position:sticky;top:0;z-index:5}
+.masthead .inner{max-width:var(--max);margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;height:64px;gap:2rem}
+.masthead .site-title{font-weight:700;color:var(--text);text-decoration:none;font-size:1.05rem}
+.masthead nav a{color:var(--muted);text-decoration:none;margin-right:1.4rem;font-size:1.05rem}
+.masthead nav a:hover,.masthead nav a.active{color:var(--text)}
+.wrap{max-width:var(--max);margin:0 auto;padding:2.2rem 1.5rem 3rem;display:grid;grid-template-columns:200px 1fr;gap:3rem}
+.sidebar{font-size:.9rem}
+.avatar{width:150px;height:150px;border-radius:50%;object-fit:cover;border:1px solid #ddd;display:block;background:#e9ecef}
+.avatar.placeholder{display:flex;align-items:center;justify-content:center;color:#9aa0a5;font-size:.75rem;text-align:center;padding:1rem}
+.sidebar h2{font-size:1.05rem;margin:1.1rem 0 .3rem;font-weight:700;white-space:nowrap}
+.sidebar .role{color:var(--muted);margin:0 0 1rem;font-size:.85rem;line-height:1.45}
+.sidebar ul{list-style:none;padding:0;margin:0}
+.sidebar li{margin:.45rem 0;display:flex;align-items:center;gap:.5rem;font-size:.85rem}
+.sidebar li a{color:var(--text);text-decoration:none}
+.sidebar li a:hover{text-decoration:underline}
+.sidebar svg{width:14px;height:14px;fill:var(--text);flex-shrink:0}
+main{max-width:720px;font-size:1.05rem}
+main h1{font-size:1.75rem;margin:0 0 1rem;font-weight:700}
+main h2{font-size:1.3rem;margin:2rem 0 .6rem;font-weight:700}
+main h3{font-size:1.1rem;margin:1.5rem 0 .4rem}
+main p{margin:0 0 1.15rem}
+main ul{padding-left:1.4rem}
+main li{margin:.45rem 0}
+code{background:#f3f4f5;border:1px solid #e6e7e8;border-radius:3px;padding:.05rem .35rem;font-size:.85em}
+.pub{margin:0 0 1rem;font-size:.97rem}
+.pub .me{font-weight:700}
+.pub .role{color:var(--muted);font-style:italic}
+.note{color:var(--muted);font-size:.92rem}
+footer{background:var(--footer);color:var(--muted);font-size:.9rem;margin-top:2rem}
+footer .inner{max-width:var(--max);margin:0 auto;padding:1.6rem 1.5rem}
+footer .follow{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin:.6rem 0}
+footer .follow a{color:var(--muted);text-decoration:none;margin-left:.6rem}
+footer .copy{font-size:.8rem;margin:.4rem 0 0}
+@media (max-width:760px){.wrap{grid-template-columns:1fr;gap:1.5rem}.masthead .inner{gap:1rem}.masthead nav a{margin-right:.9rem}}
