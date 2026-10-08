@@ -39,3 +39,4 @@ footer .follow{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-
 footer .follow a{color:var(--muted);text-decoration:none;margin-left:.6rem}
 footer .copy{font-size:.8rem;margin:.4rem 0 0}
 @media (max-width:760px){.wrap{grid-template-columns:1fr;gap:1.5rem}.masthead .inner{gap:1rem}.masthead nav a{margin-right:.9rem}}
+@media (max-width:700px){.masthead{position:static}.masthead .inner{flex-wrap:wrap;height:auto;padding:.7rem 1rem;gap:.2rem 1rem}.masthead .site-title{width:100%}.masthead nav a{margin-right:1rem;font-size:.95rem}main{min-width:0;overflow-wrap:anywhere}}
