@@ -13,7 +13,6 @@ Key facts:
 - [Home](https://jacquesfourgeaud.github.io/): biography and research highlights
 - [Research](https://jacquesfourgeaud.github.io/research.html): research themes
 - [Publications](https://jacquesfourgeaud.github.io/publications.html): selected peer-reviewed papers
-- [Media and expertise](https://jacquesfourgeaud.github.io/media.html): topics, short biographies, press photo
 - [Contact](https://jacquesfourgeaud.github.io/contact.html)
 
 ## Profiles
